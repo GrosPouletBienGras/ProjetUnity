@@ -1,0 +1,21 @@
+
+Asset 3d :
+
+Le poulet avec des os et des textures.
+( 2 images : "chicken_screenshot_1" et "chicken_screenshot_2" )
+
+
+Script :
+
+chickenController : script qui permet de faire accelerer
+le poulet et le faire suivre le 1er chemin du niveau.
+
+chickenVersusScript : script qui gere la vitesse de deplacement
+du poulet adverse, et qui le fait suivre le 2eme chemin du niveau.
+
+needleScript : permet de gerer la rotation min et max de l'aiguille du compteur de
+vitesse en fonction d'une valeur min et max.
+
+pathLoop : permet aux poulets de refaire un tour sur le chemin.
+
+cameraLookAt :  script pour la camera du trailer, avec un simplte looktAt
